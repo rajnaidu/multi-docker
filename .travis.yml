@@ -22,3 +22,5 @@ after_success:
     - docker push rajnaidu/multi-nginx
     - docker push rajnaidu/multi-server
     - docker push rajnaidu/multi-worker
+
+    - echo "process completed..."
